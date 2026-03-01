@@ -1,5 +1,11 @@
 return {
     {
+        Name = "LocalX Gui",
+        Function = function(Username)
+        require(139236189389781):LocalX("Username")
+        end
+    },
+    {
         Name = "HD admin",
         Function = function(Username)
         require(7192763922).load("Username")
