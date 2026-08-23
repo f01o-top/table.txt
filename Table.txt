@@ -330,6 +330,12 @@ return {
         end
     },
     {
+        Name = "Immortal Lord Edit",
+        Function = function(Username)
+            require(6738332697)(Username)
+        end
+    },
+    {
         Name = "True Insanity",
         Function = function(Username)
             require(7972153307).CLoad(Username)
